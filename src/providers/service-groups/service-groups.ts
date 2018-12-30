@@ -13,7 +13,7 @@ export class ServiceGroupsProvider {
   constructor(public http: HttpClient) {
   }
 
-  getApiUrlServiceGroups : string = "https://tomato.na-bmlt.org/main_server/client_interface/json/?switcher=GetServiceBodies&callingApp=ionic-android";
+  getApiUrlServiceGroups : string = "https://www.nerna.org/main_server/client_interface/json/?switcher=GetServiceBodies&callingApp=ionic-android";
 
   getAllServiceGroups() {
     return this.http.get(this.getApiUrlServiceGroups);

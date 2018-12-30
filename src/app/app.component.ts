@@ -12,6 +12,7 @@ import { HomeComponent }           from '../pages/home/home-component/home.compo
 import { SettingsComponent }       from '../pages/settings/settings-component/settings.component';
 import { MapSearchComponent }      from '../pages/map-search/map-search-component/map-search.component';
 import { FullMapComponent }        from '../pages/fullmap/fullmap-component/fullmap.component';
+import { JustfortodayComponent } from '../pages/justfortoday/justfortoday-component/justfortoday.component';
 import { LocationSearchComponent } from '../pages/location-search/location-search-component/location-search.component';
 import { ListfullComponent }       from '../pages/listfull/listfull-component/listfull.component';
 import { AddressSearchComponent}   from '../pages/address-search/address-search-component/address-search.component';
@@ -55,6 +56,7 @@ export class MyApp {
 			{ title: 'LOCATIONSEARCH', component: LocationSearchComponent, icon: 'pin' },
 			{ title: 'ADDRESSSEARCH',  component: AddressSearchComponent,  icon: 'compass' },
 			{ title: 'LISTFULL',       component: ListfullComponent,       icon: 'globe' },
+			{ title: 'JUSTFORTODAY', component: JustfortodayComponent, icon: 'calendar' },
 			{ title: 'DOIHAVETHEBMLT', component: DoIHaveTheBmltComponent, icon: 'cloud-done' },
 	    { title: 'SETTINGS',       component: SettingsComponent,       icon: 'settings'},
 			{ title: 'CONTACT',        component: ContactComponent,        icon: 'contact'}
