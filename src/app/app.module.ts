@@ -16,7 +16,6 @@ import { ContactModule }         from '../pages/contact/contact.module';
 import { LocationSearchModule }  from '../pages/location-search/location-search.module';
 import { AddressSearchModule }   from '../pages/address-search/address-search.module';
 import { JustfortodayModule } from '../pages/justfortoday/justfortoday.module';
-import { ListfullModule }        from '../pages/listfull/listfull.module';
 import { JftProvider } from '../providers/jft/jft';
 import { MeetingListProvider }   from '../providers/meeting-list/meeting-list';
 import { ServiceGroupsProvider } from '../providers/service-groups/service-groups';
@@ -34,7 +33,6 @@ import { GeolocateProvider }     from '../providers/geolocate/geolocate';
     MapSearchModule,
     SettingsModule,
     ContactModule,
-    ListfullModule,
     AddressSearchModule,
     JustfortodayModule,
     LocationSearchModule

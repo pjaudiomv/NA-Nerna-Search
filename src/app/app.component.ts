@@ -14,7 +14,6 @@ import { MapSearchComponent }      from '../pages/map-search/map-search-componen
 import { FullMapComponent }        from '../pages/fullmap/fullmap-component/fullmap.component';
 import { JustfortodayComponent } from '../pages/justfortoday/justfortoday-component/justfortoday.component';
 import { LocationSearchComponent } from '../pages/location-search/location-search-component/location-search.component';
-import { ListfullComponent }       from '../pages/listfull/listfull-component/listfull.component';
 import { AddressSearchComponent}   from '../pages/address-search/address-search-component/address-search.component';
 import { ContactComponent }        from '../pages/contact/contact-component/contact.component';
 
@@ -54,7 +53,6 @@ export class MyApp {
 			{ title: 'MAP_SEARCH',     component: MapSearchComponent,      icon: 'map'},
 			{ title: 'LOCATIONSEARCH', component: LocationSearchComponent, icon: 'pin' },
 			{ title: 'ADDRESSSEARCH',  component: AddressSearchComponent,  icon: 'compass' },
-			{ title: 'LISTFULL',       component: ListfullComponent,       icon: 'globe' },
 			{ title: 'JUSTFORTODAY', component: JustfortodayComponent, icon: 'calendar' },
 	    { title: 'SETTINGS',       component: SettingsComponent,       icon: 'settings'},
 			{ title: 'CONTACT',        component: ContactComponent,        icon: 'contact'}
