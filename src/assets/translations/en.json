@@ -1,6 +1,7 @@
 ﻿{
     "MENU"              : "Menu",
     "HOME"              : "Home",
+    "MEETINGLIST"       : "Meetings List",
     "LOCATIONSEARCH"    : "Current Location Search",
     "LOADINGMAP"        : "Loading map...",
     "LOCATION"          : "",
@@ -62,5 +63,9 @@
     "IS_BMLT_YES_2"     : "So it looks like your local service body",
     "IS_BMLT_YES_3"     : "has implemented the BMLT for their meetings list.",
     "IS_BMLT_NO_1"      : "On the BMLT worldwide DB, it looks like the nearest meeting to your current location is",
-    "IS_BMLT_NO_2"      : "So, it looks like your local service body has not implemented the BMLT for their meetings list."
+    "IS_BMLT_NO_2"      : "So, it looks like your local service body has not implemented the BMLT for their meetings list.",
+    "GROUPBY"           : "Group by ",
+    "AREA"              : "Area",
+    "CITY"              : "County",
+    "LOADINGMEETINGS"   : "Loading meetings"
 }

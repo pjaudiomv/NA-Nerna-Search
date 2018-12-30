@@ -1,6 +1,7 @@
 ﻿{
     "MENU"              : "Menu",
     "HOME"              : "Hjem",
+    "MEETINGLIST"       : "Mødeliste",
     "LOCATIONSEARCH"    : "Nuværende Placering søgning",
     "LOADINGMAP"        : "Indlæser kort...",
     "LOCATION"          : "",
@@ -61,5 +62,9 @@
     "IS_BMLT_YES_2"     : "Så det ser ud som din lokale service enhed",
     "IS_BMLT_YES_3"     : "har implementeret BMLT for jeres mødeliste.",
     "IS_BMLT_NO_1"      : "På BMLT verdensomspændende DB ser det ud til, at nærmeste møde for din nuværende placering er ",
-    "IS_BMLT_NO_2"      : "Så det ser ud til, at din lokale service område ikke har implementeret BMLT for jeres mødeliste."
+    "IS_BMLT_NO_2"      : "Så det ser ud til, at din lokale service område ikke har implementeret BMLT for jeres mødeliste.",
+    "GROUPBY"           : "Group by ",
+    "AREA"              : "Area",
+    "CITY"              : "Province",
+    "LOADINGMEETINGS"   : "Finder møder ..."
 }
