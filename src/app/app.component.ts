@@ -16,7 +16,6 @@ import { JustfortodayComponent } from '../pages/justfortoday/justfortoday-compon
 import { LocationSearchComponent } from '../pages/location-search/location-search-component/location-search.component';
 import { ListfullComponent }       from '../pages/listfull/listfull-component/listfull.component';
 import { AddressSearchComponent}   from '../pages/address-search/address-search-component/address-search.component';
-import { DoIHaveTheBmltComponent } from '../pages/do-i-have-the-bmlt/do-i-have-the-bmlt-component/do-i-have-the-bmlt.component';
 import { ContactComponent }        from '../pages/contact/contact-component/contact.component';
 
 @Component({
@@ -57,7 +56,6 @@ export class MyApp {
 			{ title: 'ADDRESSSEARCH',  component: AddressSearchComponent,  icon: 'compass' },
 			{ title: 'LISTFULL',       component: ListfullComponent,       icon: 'globe' },
 			{ title: 'JUSTFORTODAY', component: JustfortodayComponent, icon: 'calendar' },
-			{ title: 'DOIHAVETHEBMLT', component: DoIHaveTheBmltComponent, icon: 'cloud-done' },
 	    { title: 'SETTINGS',       component: SettingsComponent,       icon: 'settings'},
 			{ title: 'CONTACT',        component: ContactComponent,        icon: 'contact'}
 		];
