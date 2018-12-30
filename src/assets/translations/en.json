@@ -70,5 +70,15 @@
     "LOADINGMEETINGS"   : "Loading meetings",
     "EVENTSLOADER"      : "Loading events...",
     "EVENTSDETAILS"     : "For full details of NA events in New England, visit ",
-    "EVENTS"            : "Events"
+    "EVENTS"            : "Events",
+    "DATETIME"          : "Cleantime Calculator",
+    "ENTERCLEANDATE"    : "Enter your clean date here",
+    "CLEANDAYS"         : "Cleantime in days",
+    "CLEANWEEKS"        : "Cleantime in weeks",
+    "CLEANMONTHS"       : "Cleantime in months",
+    "CLEANYEARS"        : "Cleantime in years",
+    "DAYS"              : "days",
+    "WEEKS"             : "weeks",
+    "MONTHS"            : "months",
+    "YEARS"             : "years"
 }

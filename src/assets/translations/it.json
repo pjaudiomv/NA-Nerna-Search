@@ -69,5 +69,15 @@
     "LOADINGMEETINGS"   : "Caricamento delle riunioni",
     "EVENTSLOADER"      : "Caricamento eventi...",
     "EVENTSDETAILS"     : "Per tutti i dettagli sugli eventi di NA Italia, visita ",
-    "EVENTS"            : "Eventi"
+    "EVENTS"            : "Eventi",
+    "DATETIME"          : "Tempo di pulizia",
+    "ENTERCLEANDATE"    : "Inserisci la tua data di pulizia",
+    "CLEANDAYS"         : "Tempo di pulizia in giorni",
+    "CLEANWEEKS"        : "Tempo di pulizia in settimane",
+    "CLEANMONTHS"       : "Tempo di pulizia in mesi",
+    "CLEANYEARS"        : "Tempo di pulizia in anni",
+    "DAYS"              : "giorni",
+    "WEEKS"             : "settimane",
+    "MONTHS"            : "mesi",
+    "YEARS"             : "anni"
 }

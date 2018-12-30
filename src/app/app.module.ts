@@ -15,6 +15,7 @@ import { SettingsModule }        from '../pages/settings/settings.module';
 import { ContactModule }         from '../pages/contact/contact.module';
 import { LocationSearchModule }  from '../pages/location-search/location-search.module';
 import { AddressSearchModule }   from '../pages/address-search/address-search.module';
+import { DatetimeModule } from '../pages/datetime/datetime.module';
 import { MeetinglistModule }  from '../pages/meetinglist/meetinglist.module';
 import { JustfortodayModule } from '../pages/justfortoday/justfortoday.module';
 import { EventsPageModule } from '../pages/events/events.module'
@@ -37,6 +38,7 @@ import { GeolocateProvider }     from '../providers/geolocate/geolocate';
     SettingsModule,
     ContactModule,
     AddressSearchModule,
+    DatetimeModule,
     JustfortodayModule,
     LocationSearchModule,
     EventsPageModule,

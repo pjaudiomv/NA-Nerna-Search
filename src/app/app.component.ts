@@ -11,6 +11,7 @@ import { Config }                  from './app.config';
 import { HomeComponent }           from '../pages/home/home-component/home.component';
 import { SettingsComponent }       from '../pages/settings/settings-component/settings.component';
 import { MapSearchComponent }      from '../pages/map-search/map-search-component/map-search.component';
+import { DatetimeComponent } from '../pages/datetime/datetime-component/datetime.component';
 import { FullMapComponent }        from '../pages/fullmap/fullmap-component/fullmap.component';
 import { MeetinglistComponent } from '../pages/meetinglist/meetinglist-component/meetinglist.component';
 import { JustfortodayComponent } from '../pages/justfortoday/justfortoday-component/justfortoday.component';
@@ -57,6 +58,7 @@ export class MyApp {
 			{ title: 'ADDRESSSEARCH',  component: AddressSearchComponent,  icon: 'compass' },
             { title: 'MEETINGLIST', component: MeetinglistComponent, icon: 'logo-buffer' },
 			{ title: 'JUSTFORTODAY', component: JustfortodayComponent, icon: 'calendar' },
+            { title: 'DATETIME', component: DatetimeComponent, icon: 'clock'},
             { title: 'EVENTS', component: EventsComponent, icon: 'calendar'},
 	    { title: 'SETTINGS',       component: SettingsComponent,       icon: 'settings'},
 			{ title: 'CONTACT',        component: ContactComponent,        icon: 'contact'}
