@@ -79,5 +79,6 @@
     "DAYS"              : "dage",
     "WEEKS"             : "uger",
     "MONTHS"            : "måneder",
-    "YEARS"             : "flere år"
+    "YEARS"             : "flere år",
+    "ABOUT"             : "Om"
 }

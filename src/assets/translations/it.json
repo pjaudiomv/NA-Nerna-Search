@@ -79,5 +79,6 @@
     "DAYS"              : "giorni",
     "WEEKS"             : "settimane",
     "MONTHS"            : "mesi",
-    "YEARS"             : "anni"
+    "YEARS"             : "anni",
+    "ABOUT"             : "Info"
 }

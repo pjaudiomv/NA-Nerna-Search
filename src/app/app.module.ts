@@ -14,6 +14,7 @@ import { TabsModule }            from '../pages/tabs/tabs.module';
 import { MapSearchModule }       from '../pages/map-search/map-search.module';
 import { SettingsModule }        from '../pages/settings/settings.module';
 import { ContactModule }         from '../pages/contact/contact.module';
+import { AboutModule }         from '../pages/about/about.module';
 import { LocationSearchModule }  from '../pages/location-search/location-search.module';
 import { AddressSearchModule }   from '../pages/address-search/address-search.module';
 import { DatetimeModule } from '../pages/datetime/datetime.module';
@@ -39,6 +40,7 @@ import { GeolocateProvider }     from '../providers/geolocate/geolocate';
     MapSearchModule,
     SettingsModule,
     ContactModule,
+    AboutModule,
     AddressSearchModule,
     DatetimeModule,
     JustfortodayModule,

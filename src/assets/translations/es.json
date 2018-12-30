@@ -79,5 +79,6 @@
     "DAYS"              : "dias",
     "WEEKS"             : "semanas",
     "MONTHS"            : "meses",
-    "YEARS"             : "años"
+    "YEARS"             : "años",
+    "ABOUT"             : "Acerca de"
 }

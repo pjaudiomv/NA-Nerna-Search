@@ -31,7 +31,6 @@
     "@ngx-translate/core": "^9.0.0",
     "@ngx-translate/http-loader": "^2.0.0",
     "cordova-android": "7.1.4",
-    "cordova-browser": "5.0.4",
     "cordova-plugin-geolocation": "^4.0.1",
     "cordova-plugin-inappbrowser": "^3.0.0",
     "cordova-plugin-splashscreen": "^5.0.2",
@@ -64,8 +63,7 @@
   "description": "BMLT Search",
   "cordova": {
     "platforms": [
-      "android",
-      "browser"
+      "android"
     ],
     "plugins": {
       "cordova-plugin-splashscreen": {},

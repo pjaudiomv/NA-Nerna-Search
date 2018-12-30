@@ -19,6 +19,7 @@ import { JustfortodayComponent } from '../pages/justfortoday/justfortoday-compon
 import { LocationSearchComponent } from '../pages/location-search/location-search-component/location-search.component';
 import { AddressSearchComponent}   from '../pages/address-search/address-search-component/address-search.component';
 import { ContactComponent }        from '../pages/contact/contact-component/contact.component';
+import { AboutComponent }        from '../pages/about/about-component/about.component';
 import { EventsComponent } from '../pages/events/events-component/events.component';
 
 @Component({
@@ -53,16 +54,17 @@ export class MyApp {
 		});
 
 		this.pages = [
-            { title: 'HOME', component: TabsComponent, icon: 'home' },
+            { title: 'HOME',           component: TabsComponent, icon: 'home' },
 			{ title: 'MAP_SEARCH',     component: MapSearchComponent,      icon: 'map'},
 			{ title: 'LOCATIONSEARCH', component: LocationSearchComponent, icon: 'pin' },
 			{ title: 'ADDRESSSEARCH',  component: AddressSearchComponent,  icon: 'compass' },
-            { title: 'MEETINGLIST', component: MeetinglistComponent, icon: 'logo-buffer' },
-			{ title: 'JUSTFORTODAY', component: JustfortodayComponent, icon: 'calendar' },
-            { title: 'DATETIME', component: DatetimeComponent, icon: 'clock'},
-            { title: 'EVENTS', component: EventsComponent, icon: 'calendar'},
-	    { title: 'SETTINGS',       component: SettingsComponent,       icon: 'settings'},
-			{ title: 'CONTACT',        component: ContactComponent,        icon: 'contact'}
+            { title: 'MEETINGLIST',    component: MeetinglistComponent, icon: 'logo-buffer' },
+			{ title: 'JUSTFORTODAY',   component: JustfortodayComponent, icon: 'sunny' },
+            { title: 'DATETIME',       component: DatetimeComponent, icon: 'clock'},
+            { title: 'EVENTS',         component: EventsComponent, icon: 'calendar'},
+	    	{ title: 'SETTINGS',       component: SettingsComponent,       icon: 'settings'},
+            { title: 'CONTACT',        component: ContactComponent,        icon: 'contact'},
+            { title: 'ABOUT',          component: AboutComponent,        icon: 'information-circle'}
 		];
 	}
 
