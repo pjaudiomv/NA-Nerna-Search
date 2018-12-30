@@ -17,7 +17,9 @@ import { LocationSearchModule }  from '../pages/location-search/location-search.
 import { AddressSearchModule }   from '../pages/address-search/address-search.module';
 import { MeetinglistModule }  from '../pages/meetinglist/meetinglist.module';
 import { JustfortodayModule } from '../pages/justfortoday/justfortoday.module';
+import { EventsPageModule } from '../pages/events/events.module'
 import { JftProvider } from '../providers/jft/jft';
+import { EventsProvider} from '../providers/events/events'
 import { MeetingListProvider }   from '../providers/meeting-list/meeting-list';
 import { ServiceGroupsProvider } from '../providers/service-groups/service-groups';
 import { GeolocateProvider }     from '../providers/geolocate/geolocate';
@@ -37,6 +39,7 @@ import { GeolocateProvider }     from '../providers/geolocate/geolocate';
     AddressSearchModule,
     JustfortodayModule,
     LocationSearchModule,
+    EventsPageModule,
     MeetinglistModule
   ],
   bootstrap: [IonicApp],
@@ -49,6 +52,7 @@ import { GeolocateProvider }     from '../providers/geolocate/geolocate';
     Geolocation,
     ToastController,
     JftProvider,
+    EventsProvider,
     MeetingListProvider,
     ServiceGroupsProvider,
     GeolocateProvider

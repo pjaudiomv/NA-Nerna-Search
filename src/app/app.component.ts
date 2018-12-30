@@ -17,6 +17,7 @@ import { JustfortodayComponent } from '../pages/justfortoday/justfortoday-compon
 import { LocationSearchComponent } from '../pages/location-search/location-search-component/location-search.component';
 import { AddressSearchComponent}   from '../pages/address-search/address-search-component/address-search.component';
 import { ContactComponent }        from '../pages/contact/contact-component/contact.component';
+import { EventsComponent } from '../pages/events/events-component/events.component';
 
 @Component({
 	templateUrl: './app.html'
@@ -56,6 +57,7 @@ export class MyApp {
 			{ title: 'ADDRESSSEARCH',  component: AddressSearchComponent,  icon: 'compass' },
             { title: 'MEETINGLIST', component: MeetinglistComponent, icon: 'logo-buffer' },
 			{ title: 'JUSTFORTODAY', component: JustfortodayComponent, icon: 'calendar' },
+            { title: 'EVENTS', component: EventsComponent, icon: 'calendar'},
 	    { title: 'SETTINGS',       component: SettingsComponent,       icon: 'settings'},
 			{ title: 'CONTACT',        component: ContactComponent,        icon: 'contact'}
 		];

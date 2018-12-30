@@ -67,5 +67,8 @@
     "GROUPBY"           : "Group by ",
     "AREA"              : "Area",
     "CITY"              : "County",
-    "LOADINGMEETINGS"   : "Loading meetings"
+    "LOADINGMEETINGS"   : "Loading meetings",
+    "EVENTSLOADER"      : "Loading events...",
+    "EVENTSDETAILS"     : "For full details of NA events in New England, visit ",
+    "EVENTS"            : "Events"
 }
