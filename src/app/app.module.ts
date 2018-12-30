@@ -10,6 +10,7 @@ import { InAppBrowser }          from '@ionic-native/in-app-browser';
 import { Geolocation }           from '@ionic-native/geolocation';
 import { SharedModule }          from './shared/shared.module'
 import { HomeModule }            from '../pages/home/home.module';
+import { TabsModule }            from '../pages/tabs/tabs.module';
 import { MapSearchModule }       from '../pages/map-search/map-search.module';
 import { SettingsModule }        from '../pages/settings/settings.module';
 import { ContactModule }         from '../pages/contact/contact.module';
@@ -34,6 +35,7 @@ import { GeolocateProvider }     from '../providers/geolocate/geolocate';
     IonicModule.forRoot(MyApp),
     SharedModule,
     HomeModule,
+    TabsModule,
     MapSearchModule,
     SettingsModule,
     ContactModule,

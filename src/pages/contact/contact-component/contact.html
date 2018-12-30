@@ -13,26 +13,6 @@
 
   <ion-card>
     <ion-card-content>
-        <ion-card-title>{{'SRC_CODE' | translate}}</ion-card-title>
-        <ion-item text-wrap>
-          <ion-icon name="globe" item-left></ion-icon>
-          <button ion-button small  (click)='openLink(sourceCodeLink)'>https://github.com</button>
-        </ion-item>
-    </ion-card-content>
-  </ion-card>
-
-  <ion-card>
-    <ion-card-content>
-        <ion-card-title>{{'BUG_REPORT' | translate}}</ion-card-title>
-        <ion-item text-wrap>
-          <ion-icon name="globe" item-left></ion-icon>
-          <button ion-button small  (click)='openLink(sourceBugs)'>https://github.com</button>
-        </ion-item>
-    </ion-card-content>
-  </ion-card>
-
-  <ion-card>
-    <ion-card-content>
       <ion-card-title>{{'FIND_OUT_MORE' | translate}}</ion-card-title>
       <ion-list>
         <ion-item text-wrap>
@@ -46,5 +26,45 @@
       </ion-list>
     </ion-card-content>
   </ion-card>
+
+  <ion-list *ngFor="let detail of serviceGroupNames"  >
+    <ion-card>
+      <ion-card-content>
+
+        <ion-card-title>{{detail.name}}</ion-card-title>
+
+        <ion-list>
+          <div *ngIf="detail.url">
+            <ion-item text-wrap>
+              <ion-icon name="globe" item-left></ion-icon>
+              <button ion-button small style="text-transform: none;" (click)='openLink(detail.url)'>{{detail.url}}</button>
+            </ion-item>
+          </div>
+
+          <div *ngIf="detail.helpline ">
+            <ion-item text-wrap>
+              <ion-icon name="call" item-left></ion-icon>
+              <a href="tel:{{detail.helpline}}">{{detail.helpline}} </a>
+            </ion-item>
+          </div>
+
+          <div *ngIf="detail.contact_email ">
+            <ion-item text-wrap>
+              <ion-icon name="mail" item-left></ion-icon>
+              <a href="mailto:{{detail.contact_email}}">{{detail.contact_email}} </a>
+            </ion-item>
+          </div>
+
+          <div *ngIf="detail.description ">
+            <ion-item text-wrap>
+              <ion-icon name="information-circle" item-left></ion-icon>
+              {{detail.description}}
+            </ion-item>
+          </div>
+
+        </ion-list>
+      </ion-card-content>
+    </ion-card>
+  </ion-list>
 
 </ion-content>

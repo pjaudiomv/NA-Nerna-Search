@@ -11,6 +11,7 @@ import { Config }                  from './app.config';
 import { HomeComponent }           from '../pages/home/home-component/home.component';
 import { SettingsComponent }       from '../pages/settings/settings-component/settings.component';
 import { MapSearchComponent }      from '../pages/map-search/map-search-component/map-search.component';
+import { TabsComponent } from '../pages/tabs/tabs-component/tabs.component';
 import { DatetimeComponent } from '../pages/datetime/datetime-component/datetime.component';
 import { FullMapComponent }        from '../pages/fullmap/fullmap-component/fullmap.component';
 import { MeetinglistComponent } from '../pages/meetinglist/meetinglist-component/meetinglist.component';
@@ -26,7 +27,7 @@ import { EventsComponent } from '../pages/events/events-component/events.compone
 export class MyApp {
 	@ViewChild(Nav) nav: Nav;
 
-	rootPage = HomeComponent;
+	rootPage = TabsComponent;
 	pages: Array<{title: string, component: any, icon: string}>;
 
 
@@ -52,7 +53,7 @@ export class MyApp {
 		});
 
 		this.pages = [
-		  { title: 'HOME',           component: HomeComponent,           icon: 'home' },
+            { title: 'HOME', component: TabsComponent, icon: 'home' },
 			{ title: 'MAP_SEARCH',     component: MapSearchComponent,      icon: 'map'},
 			{ title: 'LOCATIONSEARCH', component: LocationSearchComponent, icon: 'pin' },
 			{ title: 'ADDRESSSEARCH',  component: AddressSearchComponent,  icon: 'compass' },
