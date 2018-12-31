@@ -54,17 +54,17 @@ export class MyApp {
 		});
 
 		this.pages = [
-            { title: 'HOME',           component: TabsComponent, icon: 'home' },
+            { title: 'HOME',           component: TabsComponent,           icon: 'home' },
 			{ title: 'MAP_SEARCH',     component: MapSearchComponent,      icon: 'map'},
 			{ title: 'LOCATIONSEARCH', component: LocationSearchComponent, icon: 'pin' },
 			{ title: 'ADDRESSSEARCH',  component: AddressSearchComponent,  icon: 'compass' },
-            { title: 'MEETINGLIST',    component: MeetinglistComponent, icon: 'logo-buffer' },
-			{ title: 'JUSTFORTODAY',   component: JustfortodayComponent, icon: 'sunny' },
-            { title: 'DATETIME',       component: DatetimeComponent, icon: 'clock'},
-            { title: 'EVENTS',         component: EventsComponent, icon: 'calendar'},
+            { title: 'MEETINGLIST',    component: MeetinglistComponent,    icon: 'logo-buffer' },
+			{ title: 'JUSTFORTODAY',   component: JustfortodayComponent,   icon: 'paper' },
+            { title: 'DATETIME',       component: DatetimeComponent,       icon: 'clock'},
+            { title: 'EVENTS',         component: EventsComponent,         icon: 'calendar'},
 	    	{ title: 'SETTINGS',       component: SettingsComponent,       icon: 'settings'},
             { title: 'CONTACT',        component: ContactComponent,        icon: 'contact'},
-            { title: 'ABOUT',          component: AboutComponent,        icon: 'information-circle'}
+            { title: 'ABOUT',          component: AboutComponent,          icon: 'information-circle'}
 		];
 	}
 
