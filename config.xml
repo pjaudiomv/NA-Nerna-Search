@@ -1,8 +1,8 @@
 <?xml version='1.0' encoding='utf-8'?>
-<widget id="ie.nasouth.bmltsearch" version="1.0.1" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
-    <name>BMLT Search</name>
-    <description>BMLT Meeting Search</description>
-    <author email="paulnagle@gmail.com" href="https://bmlt.app/">Paul Nagle</author>
+<widget id="org.nerna.nanewengland" version="1.0.1" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
+    <name>NA New England</name>
+    <description>NA New England Information</description>
+    <author email="admin@newenglandna.org" href="https://nerna.org/">New England Region of NA</author>
     <content src="index.html" />
     <access origin="*" />
     <content original-src="index.html" />
@@ -100,6 +100,4 @@
         <variable name="GEOLOCATION_USAGE_DESCRIPTION" value="To locate you" />
     </plugin>
     <plugin name="cordova-plugin-inappbrowser" spec="3.0.0" />
-    <engine name="android" spec="7.1.4" />
-    <engine name="ios" spec="4.5.5" />
 </widget>

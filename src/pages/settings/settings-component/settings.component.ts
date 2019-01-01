@@ -7,7 +7,7 @@ import { TranslateService }     from '@ngx-translate/core';
 })
 export class SettingsComponent {
 
-	language        : string;
+  language        : string;
   theme           : string;
   searchRange     : number;
   timeDisplay     : string;

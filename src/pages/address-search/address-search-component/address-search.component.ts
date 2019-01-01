@@ -107,7 +107,7 @@ export class AddressSearchComponent {
       if(timeDisplay) {
         this.timeDisplay = timeDisplay;
       } else {
-        this.timeDisplay = "24hr";
+        this.timeDisplay = "12hr";
       }
       this.storage.get('searchRange').then(searchValue => {
         if(searchValue) {

@@ -30,8 +30,6 @@
     "@ionic/storage": "^2.2.0",
     "@ngx-translate/core": "^9.0.0",
     "@ngx-translate/http-loader": "^2.0.0",
-    "cordova-android": "7.1.4",
-    "cordova-ios": "4.5.5",
     "cordova-plugin-geolocation": "^4.0.1",
     "cordova-plugin-inappbrowser": "^3.0.0",
     "cordova-plugin-splashscreen": "^5.0.2",
@@ -63,10 +61,7 @@
   "cordovaPlatforms": [],
   "description": "BMLT Search",
   "cordova": {
-    "platforms": [
-      "android",
-      "ios"
-    ],
+    "platforms": [],
     "plugins": {
       "cordova-plugin-splashscreen": {},
       "cordova-plugin-statusbar": {},

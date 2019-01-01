@@ -44,7 +44,7 @@ export class MeetinglistComponent {
                 if (timeDisplay) {
                     this.timeDisplay = timeDisplay;
                 } else {
-                    this.timeDisplay = "24hr";
+                    this.timeDisplay = "12hr";
                 }
             });
         this.HTMLGrouping = "area";
