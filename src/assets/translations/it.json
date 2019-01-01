@@ -80,5 +80,10 @@
     "WEEKS"             : "settimane",
     "MONTHS"            : "mesi",
     "YEARS"             : "anni",
-    "ABOUT"             : "Info"
+    "ABOUT"             : "Info",
+    "ABOUT_APP_TXT"     : "About this app",
+    "ABOUT_APP"         : "This app was created by the New England Region of Narcotics Anonymous, and 100% made by addicts for addicts.",
+    "BMLT_ENABLED"      : "BMLT Enabled",
+    "BMLT_ENABLED_TXT"  : "This app was made possible by the efforts of the BMLT Enabled community to learn more about the projects they work on visit some of these links.",
+    "VISIT_CODE"        : "Visit Code Repository"
 }

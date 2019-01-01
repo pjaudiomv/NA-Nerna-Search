@@ -9,7 +9,7 @@ import { InAppBrowser }     from '@ionic-native/in-app-browser';
 export class AboutComponent {
 
     sourceCodeLink    : string = "https://github.com/paulnagle/BMLTSearch";
-    sourceBugs        : string = "https://github.com/bmlt-enabled/";
+    sourceCodeRepo        : string = "https://github.com/bmlt-enabled/";
     bmltLink          : string = "https://bmlt.app/";
 
     constructor( private config       : Config,

@@ -51,7 +51,6 @@
     "BUS"               : "Bus",
     "TRAIN"             : "Train",
     "SRC_CODE"          : "App Source Code",
-    "BUG_REPORT"        : "Open a bug report/enhancement request",
     "FIND_OUT_MORE"     : "How do I find out more about the BMLT?",
     "JOIN_FB_GROUP"     : "Join the Facebook Group",
     "VISIT_WEBSITE"     : "Visit the website",
@@ -81,5 +80,10 @@
     "WEEKS"             : "weeks",
     "MONTHS"            : "months",
     "YEARS"             : "years",
-    "ABOUT"             : "About"
+    "ABOUT"             : "About",
+    "ABOUT_APP_TXT"     : "About this app",
+    "ABOUT_APP"         : "This app was created by the New England Region of Narcotics Anonymous, and 100% made by addicts for addicts.",
+    "BMLT_ENABLED"      : "BMLT Enabled",
+    "BMLT_ENABLED_TXT"  : "This app was made possible by the efforts of the BMLT Enabled community to learn more about the projects they work on visit some of these links.",
+    "VISIT_CODE"        : "Visit Code Repository"
 }
