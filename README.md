@@ -1,18 +1,18 @@
-# BMLT Meeting Search
+# NA New England
 
 ## Apple iphone/ipad app link
 
-https://itunes.apple.com/us/app/bmlt-search/id1370165741?mt=8
+UNRELEASED
 
 ## Android phone/tablet link
 
-https://play.google.com/store/apps/details?id=ie.nasouth.bmltsearch&hl=en
+UNRELEASED
 
 ## Build it yourself (on a mac)
 
 Download the master.zip file...
 
-https://github.com/paulnagle/BMLTSearch/archive/master.zip
+https://github.com/pjaudiomv/NA-Nerna-Search/archive/master.zip
 
 Unzip the zip file and cd into the directory that is created
 
