@@ -96,3 +96,10 @@ span.date-display-single {
 .date-display-single {
   text-transform: lowercase;
 }
+
+a {
+  pointer-events: none;
+  cursor: default;
+  text-decoration: none;
+  color: black;
+}
