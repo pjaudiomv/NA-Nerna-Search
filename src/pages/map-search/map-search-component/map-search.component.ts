@@ -44,6 +44,14 @@ export class MapSearchComponent {
 
   }
 
+previous;
+  clickedMarker(infowindow) {
+    if (this.previous) {
+        this.previous.close();
+    }
+    this.previous = infowindow;
+ }
+
   mapReady(event: any) {
     this.map = event;
 
@@ -98,9 +106,16 @@ export class MapSearchComponent {
 
       }
 
-      this.setLatLngOffsets();
-
+      //this.setLatLngOffsets();
+var i : any;
+    var dist : number = 0;
+    for (i = 0; i < this.meetingList.length - 1; i++) {
+      if (parseFloat(this.meetingList[i].distance_in_km) > dist) {
+        dist = parseFloat(this.meetingList[i].distance_in_km);
+      }
+      }
       this.dismissLoader();
+      this.circleRadiusMeters = dist * 1000;
     });
   }
 
