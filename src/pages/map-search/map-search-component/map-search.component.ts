@@ -11,8 +11,6 @@ import { MouseEvent,
 import { MeetingListProvider }        from '../../../providers/meeting-list/meeting-list';
 import { TranslateService }           from '@ngx-translate/core';
 import { InAppBrowser }               from '@ionic-native/in-app-browser';
-import {AgmMarkerSpider} from 'agm-spiderfeir';
-import {OverlappingMarkerSpiderfier} from 'ts-overlapping-marker-spiderfier';
 
 declare const google: any;
 
@@ -45,34 +43,13 @@ export class MapSearchComponent {
               private iab                 : InAppBrowser   ) {
 
   }
-
-previous;
+    previous;
     clickedMarker(infowindow) {
         if (this.previous) {
             this.previous.close();
         }
         this.previous = infowindow;
     }
-
-    testEvent(event: any) {
-        var oms = new OverlappingMarkerSpiderfier(this.map, { markersWontMove: true, markersWontHide: true });
-        oms.addListener('format', function(marker, status) {
-            var iconURL = status == OverlappingMarkerSpiderfier.markerStatus.SPIDERFIED ? 'https://maps.google.com/mapfiles/kml/shapes/library_maps.png' :
-                status == OverlappingMarkerSpiderfier.markerStatus.SPIDERFIABLE ? 'https://maps.google.com/mapfiles/kml/shapes/library_maps.png' :
-                    status == OverlappingMarkerSpiderfier.markerStatus.UNSPIDERFIABLE ? 'https://maps.google.com/mapfiles/kml/shapes/library_maps.png' :
-                        null;
-            var iconSize = new google.maps.Size(23, 32);
-            marker.setIcon({
-                url: iconURL,
-                size: iconSize,
-                scaledSize: iconSize  // makes SVG icons work in IE
-            });
-        });
-    }
-
-
-
-
 
   mapReady(event: any) {
     this.map = event;
@@ -128,7 +105,6 @@ previous;
 
       }
 
-      //this.setLatLngOffsets();
 var i : any;
     var dist : number = 0;
     for (i = 0; i < this.meetingList.length - 1; i++) {
@@ -139,39 +115,6 @@ var i : any;
       this.dismissLoader();
       this.circleRadiusMeters = dist * 1000;
     });
-  }
-
-  setLatLngOffsets() {
-    var i : any;
-    var dist : number = 0;
-    for (i = 0; i < this.meetingList.length - 1; i++) {
-      if (parseFloat(this.meetingList[i].distance_in_km) > dist) {
-        dist = parseFloat(this.meetingList[i].distance_in_km);
-      }
-      var longOffset : any = 0;
-      var latOffset  : any = 0;
-      var Offset     : any = 0.00002;
-      // maybe use :- https://github.com/TopicFriends/TopicFriends/commit/d6c61ae976eb1473b314bd804cebacd5106dac37
-      while ((this.meetingList[i].longitude == this.meetingList[i+1].longitude) &&
-             (this.meetingList[i].latitude == this.meetingList[i+1].latitude) ){
-        if ( (i % 2) === 1) {
-          longOffset += Offset;
-          this.meetingList[i].longitude = this.meetingList[i].longitude  + longOffset;
-        } else {
-          latOffset += Offset;
-          this.meetingList[i].latitude = this.meetingList[i].latitude  + latOffset;
-        }
-        i++;
-        if (i == (this.meetingList.length - 1)) {
-          longOffset = 0;
-          latOffset = 0;
-          break;
-        }
-      } // while
-
-    } // for
-
-    this.circleRadiusMeters = dist * 1000;
   }
 
   public radiusChange() {
