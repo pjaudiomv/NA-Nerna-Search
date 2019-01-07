@@ -13,7 +13,7 @@ export class ServiceGroupsProvider {
   constructor(public http: HttpClient) {
   }
 
-  getApiUrlServiceGroups : string = "https://www.nerna.org/main_server/client_interface/json/?switcher=GetServiceBodies&callingApp=ionic-android";
+  getApiUrlServiceGroups : string = "https://nerna.org/nerna_scripts/serviceBodies.php";
 
   getAllServiceGroups() {
     return this.http.get(this.getApiUrlServiceGroups);

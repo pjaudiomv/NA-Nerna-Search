@@ -12,9 +12,9 @@
 <ion-content class="outer-content">
 
   <ion-item>
-    <ion-label>{{ 'ENTERCLEANDATE' | translate }}&nbsp;-> </ion-label>
+    <ion-label>{{ 'ENTERCLEANDATE' | translate }}&nbsp;<ion-icon name="arrow-round-forward"></ion-icon> </ion-label>
     <ion-datetime
-      displayFormat   = "DD MMM YYYY"
+      displayFormat   = "MMM DD YYYY"
       [(ngModel)]     = "cleanDate"
       cancelText      = "{{ 'CANCEL' | translate }}"
       doneText        = "{{ 'OK' | translate }}"

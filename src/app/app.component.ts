@@ -13,7 +13,6 @@ import { SettingsComponent }       from '../pages/settings/settings-component/se
 import { MapSearchComponent }      from '../pages/map-search/map-search-component/map-search.component';
 import { TabsComponent } from '../pages/tabs/tabs-component/tabs.component';
 import { DatetimeComponent } from '../pages/datetime/datetime-component/datetime.component';
-import { FullMapComponent }        from '../pages/fullmap/fullmap-component/fullmap.component';
 import { MeetinglistComponent } from '../pages/meetinglist/meetinglist-component/meetinglist.component';
 import { JustfortodayComponent } from '../pages/justfortoday/justfortoday-component/justfortoday.component';
 import { LocationSearchComponent } from '../pages/location-search/location-search-component/location-search.component';
@@ -21,6 +20,7 @@ import { AddressSearchComponent}   from '../pages/address-search/address-search-
 import { ContactComponent }        from '../pages/contact/contact-component/contact.component';
 import { AboutComponent }        from '../pages/about/about-component/about.component';
 import { EventsComponent } from '../pages/events/events-component/events.component';
+import { WordpressPosts } from '../pages/wordpress/wordpress-posts/wordpress-posts.component';
 
 @Component({
 	templateUrl: './app.html'
@@ -62,6 +62,7 @@ export class MyApp {
 			{ title: 'JUSTFORTODAY',   component: JustfortodayComponent,   icon: 'paper' },
             { title: 'DATETIME',       component: DatetimeComponent,       icon: 'clock'},
             { title: 'EVENTS',         component: EventsComponent,         icon: 'calendar'},
+            { title: 'POSTS', 		   component: WordpressPosts,          icon: 'logo-wordpress'},
 	    	{ title: 'SETTINGS',       component: SettingsComponent,       icon: 'settings'},
             { title: 'CONTACT',        component: ContactComponent,        icon: 'contact'},
             { title: 'ABOUT',          component: AboutComponent,          icon: 'information-circle'}

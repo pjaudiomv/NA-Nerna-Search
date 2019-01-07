@@ -11,6 +11,8 @@ import { MouseEvent,
 import { MeetingListProvider }        from '../../../providers/meeting-list/meeting-list';
 import { TranslateService }           from '@ngx-translate/core';
 import { InAppBrowser }               from '@ionic-native/in-app-browser';
+import {AgmMarkerSpider} from 'agm-spiderfeir';
+import {OverlappingMarkerSpiderfier} from 'ts-overlapping-marker-spiderfier';
 
 declare const google: any;
 
@@ -45,12 +47,32 @@ export class MapSearchComponent {
   }
 
 previous;
-  clickedMarker(infowindow) {
-    if (this.previous) {
-        this.previous.close();
+    clickedMarker(infowindow) {
+        if (this.previous) {
+            this.previous.close();
+        }
+        this.previous = infowindow;
     }
-    this.previous = infowindow;
- }
+
+    testEvent(event: any) {
+        var oms = new OverlappingMarkerSpiderfier(this.map, { markersWontMove: true, markersWontHide: true });
+        oms.addListener('format', function(marker, status) {
+            var iconURL = status == OverlappingMarkerSpiderfier.markerStatus.SPIDERFIED ? 'https://maps.google.com/mapfiles/kml/shapes/library_maps.png' :
+                status == OverlappingMarkerSpiderfier.markerStatus.SPIDERFIABLE ? 'https://maps.google.com/mapfiles/kml/shapes/library_maps.png' :
+                    status == OverlappingMarkerSpiderfier.markerStatus.UNSPIDERFIABLE ? 'https://maps.google.com/mapfiles/kml/shapes/library_maps.png' :
+                        null;
+            var iconSize = new google.maps.Size(23, 32);
+            marker.setIcon({
+                url: iconURL,
+                size: iconSize,
+                scaledSize: iconSize  // makes SVG icons work in IE
+            });
+        });
+    }
+
+
+
+
 
   mapReady(event: any) {
     this.map = event;

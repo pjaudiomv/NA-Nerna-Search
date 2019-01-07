@@ -1,6 +1,6 @@
 {
   "name": "NANewEngland",
-  "version": "1.0.5",
+  "version": "1.0.6",
   "author": "NA New England",
   "homepage": "https://nerna.org/",
   "private": true,
@@ -68,9 +68,9 @@
   "description": "NA New England",
   "cordova": {
     "platforms": [
-      "ios",
       "android",
-      "browser"
+      "browser",
+      "ios"
     ],
     "plugins": {
       "cordova-plugin-splashscreen": {},
